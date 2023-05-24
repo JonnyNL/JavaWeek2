@@ -51,11 +51,11 @@ public double getTotal() {
 }
 
 public String toString() {
-    return ("InvoiceItem[id=" + id + ",desc=" + desc + ",qty=" + qty + "unitPrice=" + unitPrice + "]");
+    return ("InvoiceItem[id=" + id + ", desc=" + desc + ", qty=" + qty + ", unitPrice=" + unitPrice + "]");
 }
 
 public void PrintCount() {
-    System.out.println("Number of invoices = " + this.invoiceCount);
+    System.out.println("Invoice Count = " + this.invoiceCount);
 }
 
 }

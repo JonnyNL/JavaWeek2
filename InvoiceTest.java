@@ -1,7 +1,9 @@
 public class InvoiceTest {
     public static void main(String[] args) {
         
-        
+        System.out.println("Start of invoices");
+        System.out.println(" ");
+
         InvoiceItem ChoccyMilk = new InvoiceItem("cm34", "Chocolate Milk", 2.50);
         ChoccyMilk.PrintCount();
         System.out.println(ChoccyMilk);
@@ -31,6 +33,7 @@ public class InvoiceTest {
         CovidCure.PrintCount();
         System.out.println(CovidCure);
 
+        System.out.println(" ");
         System.out.println("End of invoices");
 
     }
